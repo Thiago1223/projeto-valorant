@@ -162,7 +162,7 @@ main {
 }
 .viper {
     z-index: 1;
-    padding-right: 190px;
+    padding-right: 193px;
 }
 .titulo__info {
     position: absolute;
@@ -202,7 +202,7 @@ main {
 }
 .raze {
     z-index: 1;
-    padding-right: 190px;
+    padding-right: 193px;
 }
 .segundo__titulo__info {
     position: absolute;
@@ -264,14 +264,16 @@ main {
 .icone {
     position: absolute;
     font-size: 15px;
-    padding-top: 80px;
+    margin-top: 80px;
+    z-index: 1;
     color: #0F1822;
 }
 .icone__twitter {
     position: absolute;
-    padding-top: 80px;
-    padding-left: 70px;
+    margin-top: 80px;
+    margin-left: 70px;
     font-size: 15px;
+    z-index: 1;
     color: #0F1822;
 }
 .veja__mais {
@@ -279,8 +281,10 @@ main {
     font-family: fonte;
     font-size: 15px;
     font-weight: 700;
-    padding-top: 80px;
-    padding-left: 180px;
+    margin-top: 80px;
+    margin-left: 180px;
+    z-index: 1;
+    color: #0F1923;
 }
 .primeira__borda {
     position: absolute;
