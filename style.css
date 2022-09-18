@@ -1,0 +1,308 @@
+@font-face {
+    font-family: fonte;
+    src: url(Zuume-Bold.otf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 102px 1fr;
+}
+header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    gap: 32px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    background-color: #FF4655;
+}
+.lista {
+    display: flex;
+    padding-left: 243.05px;
+    gap: 32px;
+}
+.botao {
+    color: #131723;
+}
+main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+        "descricao botao__join personagem valorant";
+    grid-template-columns: 555px 880px 0px 485px;
+    background-color: #0F1923;
+    background-image: url(./img/img-fundo.png);
+    position: relative;
+}
+.descricao {
+    margin-top: 26.94px;
+    grid-area: descricao;
+    display: flex;
+    flex-direction: column;
+}
+.nome__personagem {
+    font-family: fonte;
+    font-size: 220px;
+    font-weight: 800;
+    padding-left: 64px;
+    color: #FF4654;
+}
+.sentinel {
+    font-family: fonte;
+    font-size: 48px;
+    font-weight: 800;
+    position: absolute;
+    padding-top: 165px;
+    padding-left: 395px;
+    color: #FFFFFF;
+}
+.bio {
+    font-family: fonte;
+    font-size: 48px;
+    font-weight: 800;
+    padding-left: 64px;
+    color: #FFFFFF;
+}
+.descricao__portugues {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 64px;
+    width: 510px;
+    height: 120px;
+    color: #FFFFFF;
+}
+.descricao__ingles {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 49px;
+    padding-left: 64px;
+    width: 510px;
+    height: 120px;
+    color: #FFFFFF;
+}
+.botao__join {
+    grid-area: botao__join;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 26.94px;
+    padding-top: 360px;
+    padding-right: 100px;
+}
+.botao__entrar {
+    font-family: fonte;
+    z-index: 1;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 200px;
+    height: 60px;
+    color: #FFFFFF;
+    border: 2.5px solid #FFFFFF;
+}
+.fundo__botao {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    margin-top: 382px;
+    margin-left: 840px;
+    background-color: #FF4655;
+}
+.personagem {
+    position: absolute;
+    margin-top: -20px;
+    padding-left: 1132px;
+}
+.personagem__killjoy {
+    width: 548px;
+    height: 845px;
+}
+.valorant {
+    grid-area: valorant;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F1923;
+}
+.img-vertical {
+    padding-left: 300px;
+}
+.primeira__info {
+    position: absolute;
+    width: 260px;
+    height: 110px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 680px;
+    margin-left: 72px;
+    font-weight: 700;
+}
+.viper {
+    z-index: 1;
+    padding-right: 190px;
+}
+.titulo__info {
+    position: absolute;
+    z-index: 1;
+    font-family: fonte;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 105px;
+    margin-bottom: 80px;
+}
+.vermelho {
+    color: #FF4654;
+}
+.descricao__info {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    width: 129px;
+    height: 44px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+.segunda__info {
+    position: absolute;
+    width: 260px;
+    height: 110px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 680px;
+    margin-left: 370px;
+    font-weight: 700;
+}
+.raze {
+    z-index: 1;
+    padding-right: 190px;
+}
+.segundo__titulo__info {
+    position: absolute;
+    z-index: 1;
+    font-family: fonte;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 105px;
+    margin-bottom: 80px;
+}
+.segunda__descricao__info {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    width: 129px;
+    height: 44px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+.terceira__info {
+    position: absolute;
+    width: 260px;
+    height: 110px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 680px;
+    margin-left: 678px;
+    font-weight: 700;
+}
+.kayo {
+    z-index: 1;
+    padding-right: 190px;
+}
+.terceiro__titulo__info {
+    position: absolute;
+    z-index: 1;
+    font-family: fonte;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 105px;
+    margin-bottom: 80px;
+}
+.terceira__descricao__info {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    width: 129px;
+    height: 44px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+.icone {
+    position: absolute;
+    font-size: 15px;
+    padding-top: 80px;
+    color: #0F1822;
+}
+.icone__twitter {
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 70px;
+    font-size: 15px;
+    color: #0F1822;
+}
+.veja__mais {
+    position: absolute;
+    font-family: fonte;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-left: 180px;
+}
+.primeira__borda {
+    position: absolute;
+    width: 260px;
+    height: 115px;
+    margin-top: 685px;
+    margin-left: 67px;
+    border: 1px solid #FF4655;
+}
+.segunda__borda {
+    position: absolute;
+    width: 260px;
+    height: 115px;
+    margin-top: 685px;
+    margin-left: 364px;
+    border: 1px solid #FF4655;
+}
+.terceira__borda {
+    position: absolute;
+    width: 260px;
+    height: 115px;
+    margin-top: 685px;
+    margin-left: 673px;
+    border: 1px solid #FF4655;
+}
