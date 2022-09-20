@@ -1,6 +1,7 @@
 @font-face {
     font-family: fonte;
     src: url(Zuume-Bold.otf);
+    font-display: swap
 }
 * {
     padding: 0;
@@ -31,6 +32,18 @@ header {
     font-family: 'Poppins';
     font-weight: 700;
     background-color: #FF4655;
+}
+.logo {
+    width: 165px;
+    height: auto;
+}
+.logo__valorant {
+    width: 67px;
+    height: auto;
+}
+.linha__vertical {
+    width: 4px;
+    height: 74px;
 }
 .lista {
     display: flex;
@@ -135,6 +148,7 @@ main {
 .personagem__killjoy {
     margin-top: -10px;
     width: 583px;
+    height: auto;
 }
 .valorant {
     grid-area: valorant;
@@ -163,6 +177,8 @@ main {
 .viper {
     z-index: 1;
     padding-right: 193px;
+    width: 281px;
+    height: auto;
 }
 .titulo__info {
     position: absolute;
@@ -203,6 +219,8 @@ main {
 .raze {
     z-index: 1;
     padding-right: 193px;
+    width: 281px;
+    height: auto;
 }
 .segundo__titulo__info {
     position: absolute;
@@ -240,6 +258,8 @@ main {
 .kayo {
     z-index: 1;
     padding-right: 190px;
+    width: 278px;
+    height: auto;
 }
 .terceiro__titulo__info {
     position: absolute;
