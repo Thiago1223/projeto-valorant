@@ -133,8 +133,8 @@ main {
     padding-left: 1132px;
 }
 .personagem__killjoy {
-    width: 548px;
-    height: 845px;
+    margin-top: -10px;
+    width: 583px;
 }
 .valorant {
     grid-area: valorant;
